@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body { font-family: 'Poppins', sans-serif; background: linear-gradient(135deg, #1a1a2e, #16213e, #0f3460); min-height: 100vh; display: flex; flex-direction: column; }
+        nav { display: flex; justify-content: space-between; align-items: center; padding: 20px 40px; border-bottom: 1px solid rgba(255, 255, 255, 0.1); }
+        .nav-brand { color: #ffffff; font-size: 1.1rem; font-weight: 600; text-decoration: none; }
+        .nav-links { display: flex; gap: 25px; list-style: none; }
+        .nav-links a { color: rgba(255, 255, 255, 0.7); text-decoration: none; font-size: 0.95rem; transition: color 0.3s; }
+        .nav-links a:hover, .nav-links a.active { color: #e94560; }
+        .container { flex: 1; display: flex; justify-content: center; align-items: center; padding: 40px 20px; }
+        .about-card { background: rgba(255, 255, 255, 0.05); backdrop-filter: blur(10px); border: 1px solid rgba(255, 255, 255, 0.1); padding: 40px; border-radius: 20px; width: 100%; max-width: 800px; color: #ffffff; box-shadow: 0 15px 35px rgba(0, 0, 0, 0.3); }
+        h1 { font-size: 2rem; margin-bottom: 10px; color: #ffffff; }
+        h1 span { background: linear-gradient(to right, #e94560, #c62a47); -webkit-background-clip: text; -webkit-text-fill-color: transparent; }
+        p { color: rgba(255, 255, 255, 0.7); line-height: 1.6; margin-bottom: 25px; font-size: 0.95rem; }
+        h2 { font-size: 1.3rem; margin-bottom: 15px; color: #e94560; font-weight: 600; }
+        .tech-stack { display: flex; flex-wrap: wrap; gap: 10px; margin-bottom: 30px; }
+        .badge { background: rgba(233, 69, 96, 0.1); border: 1px solid rgba(233, 69, 96, 0.3); color: #e94560; padding: 6px 14px; border-radius: 50px; font-size: 0.8rem; font-weight: 600; }
+        .features { list-style: none; margin-bottom: 30px; }
+        .features li { color: rgba(255, 255, 255, 0.8); margin-bottom: 10px; font-size: 0.95rem; display: flex; align-items: center; gap: 10px; }
+        .features li::before { content: "✦"; color: #e94560; }
+        .btn-back { display: inline-block; padding: 12px 30px; background: linear-gradient(to right, #e94560, #c62a47); color: #ffffff; text-decoration: none; border-radius: 50px; font-weight: 600; font-size: 0.95rem; box-shadow: 0 4px 15px rgba(233, 69, 96, 0.3); transition: transform 0.3s, box-shadow 0.3s; }
+        .btn-back:hover { transform: translateY(-2px); box-shadow: 0 6px 20px rgba(233, 69, 96, 0.5); }
+        footer { text-align: center; padding: 20px; color: rgba(255, 255, 255, 0.25); font-size: 0.78rem; border-top: 1px solid rgba(255, 255, 255, 0.07); }
+    </style>
+</head>
+<body>
+    <nav>
+        <a class="nav-brand">Profile Management System</a>
+        <ul class="nav-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html" class="active">About</a></li>
+            <li><a href="form.html">Profile Form</a></li>
+            <li><a href="viewProfiles.jsp">View Profiles</a></li>
+        </ul>
+    </nav>
+    <div class="container">
+        <div class="about-card">
+            <h1>About This <span>System</span></h1>
+            <p>This application has been upgraded from a simple profile viewer into a fully dynamic Profile Management System following the MVC software design pattern.</p>
+            <h2>Enterprise Architecture Stack</h2>
+            <div class="tech-stack">
+                <span class="badge">Model: JavaBean</span>
+                <span class="badge">View: JSP & HTML5</span>
+                <span class="badge">Controller: Servlet</span>
+                <span class="badge">Database: Apache Derby</span>
+                <span class="badge">Bridge: JDBC</span>
+                <span class="badge">Server: GlassFish</span>
+            </div>
+            <h2>Key Features</h2>
+            <ul class="features">
+                <li>Persistent data storage using relational database</li>
+                <li>Search profiles by Student ID and Name</li>
+                <li>Filter profiles by Programme and Hobbies</li>
+                <li>Responsive glassmorphic UI design</li>
+            </ul>
+            <h2>Learning Outcomes</h2>
+            <ul class="features">
+                <li>Decoupling backend controllers from frontend layers</li>
+                <li>Managing dynamic SQL using JDBC Prepared Statement</li>
+                <li>Implementing MVC architecture pattern</li>
+            </ul>
+            <a href="form.html" class="btn-back">Go to Profile Form</a>
+        </div>
+    </div>
+    <footer>&copy; 2026 Personal Profile App &mdash; CSC584 Enterprise Programming</footer>
+</body>
+</html>

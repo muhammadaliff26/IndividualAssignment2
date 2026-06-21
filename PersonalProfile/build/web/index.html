@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body { font-family: 'Poppins', sans-serif; background: linear-gradient(135deg, #1a1a2e, #16213e, #0f3460); min-height: 100vh; display: flex; flex-direction: column; }
+        nav { display: flex; justify-content: space-between; align-items: center; padding: 20px 40px; border-bottom: 1px solid rgba(255, 255, 255, 0.1); }
+        .nav-brand { color: #ffffff; font-size: 1.1rem; font-weight: 600; text-decoration: none; }
+        .nav-links { display: flex; gap: 25px; list-style: none; }
+        .nav-links a { color: rgba(255, 255, 255, 0.6); text-decoration: none; font-size: 0.9rem; transition: color 0.2s; }
+        .nav-links a.active, .nav-links a:hover { color: #e94560; }
+        .hero { flex: 1; display: flex; flex-direction: column; align-items: center; justify-content: center; text-align: center; padding: 40px 20px; }
+        .hero h1 { color: #ffffff; font-size: 2.8rem; font-weight: 600; line-height: 1.2; margin-bottom: 15px; }
+        .hero h1 span { color: #e94560; }
+        .hero p { color: rgba(255, 255, 255, 0.55); font-size: 1rem; max-width: 420px; line-height: 1.7; margin-bottom: 35px; }
+        .btn-group { display: flex; gap: 15px; flex-wrap: wrap; justify-content: center; }
+        .btn-primary { padding: 13px 30px; background: linear-gradient(135deg, #e94560, #c62a47); color: #ffffff; font-family: 'Poppins', sans-serif; font-size: 0.95rem; font-weight: 600; border: none; border-radius: 10px; cursor: pointer; text-decoration: none; transition: transform 0.2s, box-shadow 0.2s; }
+        .btn-primary:hover { transform: translateY(-2px); box-shadow: 0 8px 25px rgba(233, 69, 96, 0.5); }
+        .btn-secondary { padding: 13px 30px; background: transparent; color: #ffffff; font-family: 'Poppins', sans-serif; font-size: 0.95rem; font-weight: 600; border: 1px solid rgba(255, 255, 255, 0.3); border-radius: 10px; cursor: pointer; text-decoration: none; transition: border-color 0.2s, color 0.2s; }
+        .btn-secondary:hover { border-color: #e94560; color: #e94560; }
+        .cards { display: flex; gap: 20px; margin-top: 60px; flex-wrap: wrap; justify-content: center; padding: 0 20px; }
+        .card { background: rgba(255, 255, 255, 0.05); border: 1px solid rgba(255, 255, 255, 0.1); border-radius: 15px; padding: 25px 30px; width: 160px; text-align: center; }
+        .card-number { color: #e94560; font-size: 1.8rem; font-weight: 600; }
+        .card-label { color: rgba(255, 255, 255, 0.5); font-size: 0.8rem; margin-top: 5px; }
+        footer { text-align: center; padding: 20px; color: rgba(255, 255, 255, 0.25); font-size: 0.78rem; border-top: 1px solid rgba(255, 255, 255, 0.07); }
+        @media (max-width: 480px) { .hero h1 { font-size: 2rem; } nav { padding: 15px 20px; } }
+    </style>
+</head>
+<body>
+    <nav>
+        <a class="nav-brand">Profile Management System</a>
+        <ul class="nav-links">
+            <li><a href="index.html" class="active">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="form.html">Profile Form</a></li>
+            <li><a href="viewProfiles.jsp">View Profiles</a></li>
+        </ul>
+    </nav>
+    <div class="hero">
+        <h1>Welcome to My <span>Profile Management System</span></h1>
+        <p>An enhanced enterprise application built using MVC architecture integrating HTML5, Servlets, JavaBeans, JSP, and JDBC connected to an Apache Derby Database.</p>
+        <div class="btn-group">
+            <a href="form.html" class="btn-primary">Fill My Profile</a>
+            <a href="about.html" class="btn-secondary">Learn More</a>
+        </div>
+        <div class="cards">
+            <div class="card"><div class="card-number">HTML</div><div class="card-label">View</div></div>
+            <div class="card"><div class="card-number">Servlet</div><div class="card-label">Controller</div></div>
+            <div class="card"><div class="card-number">Bean</div><div class="card-label">Model</div></div>
+            <div class="card"><div class="card-number">JDBC</div><div class="card-label">Bridge</div></div>
+            <div class="card"><div class="card-number">JSP</div><div class="card-label">Dynamic View</div></div>
+            <div class="card"><div class="card-number">Derby</div><div class="card-label">Database</div></div>
+        </div>
+    </div>
+    <footer>&copy; 2026 Profile Management System &mdash; CSC584 Enterprise Programming</footer>
+</body>
+</html>

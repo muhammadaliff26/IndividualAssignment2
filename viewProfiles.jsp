@@ -340,7 +340,7 @@
 
     </div>
             
-            <footer>&copy; 2026 Personal Profile App &mdash; CSC584 Enterprise Programming</footer>
+            <footer>&copy; 2026 Profile Management System &mdash; CSC584 Enterprise Programming</footer>
 
 </body>
 </html>

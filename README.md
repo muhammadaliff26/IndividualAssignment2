@@ -22,16 +22,23 @@ Modern & Responsive UI: Built with custom CSS, utilizing Flexbox/Grid layouts, F
 
 Success & Error Handling: Provides clear, visual feedback to the user after form submissions or invalid search queries.
 
-<img width="1907" height="972" alt="image" src="https://github.com/user-attachments/assets/747a94b1-3c9c-4e25-b6f3-ea5719c0d41c" />
+<img width="1918" height="1078" alt="image" src="https://github.com/user-attachments/assets/acda8a4a-8d55-4a6d-a46b-2039a0b0451f" />
 
-<img width="1877" height="961" alt="image" src="https://github.com/user-attachments/assets/1a5b0662-a680-4f35-a45a-5c33d2a2ce67" />
+<img width="1918" height="1078" alt="image" src="https://github.com/user-attachments/assets/95c6eb87-3dc8-4a16-9e3c-564eeb65370d" />
 
-<img width="1902" height="970" alt="image" src="https://github.com/user-attachments/assets/d35ec02e-5a8a-4563-be52-f3c66d533dba" />
+<img width="1918" height="1078" alt="image" src="https://github.com/user-attachments/assets/dc20c91f-a6f9-45a1-8309-908ebccd5c8d" />
 
-<img width="1902" height="971" alt="image" src="https://github.com/user-attachments/assets/64667e33-2ff0-45a1-9f08-d1c5a4d3fd8e" />
+<img width="1918" height="1078" alt="image" src="https://github.com/user-attachments/assets/8a8c771a-f5ed-4bff-87ba-8cfbf5039c9f" />
 
-<img width="1902" height="971" alt="image" src="https://github.com/user-attachments/assets/ab5f553d-bf1f-46b3-8764-6fd5d8b03f9b" />
+<img width="1918" height="1078" alt="image" src="https://github.com/user-attachments/assets/0106d1ee-8a9d-47d0-a905-689d65a89196" />
 
-<img width="1906" height="972" alt="image" src="https://github.com/user-attachments/assets/2354a01e-5407-414e-9cf8-66661eed7381" />
+<img width="1917" height="1078" alt="image" src="https://github.com/user-attachments/assets/619d336f-afb7-44be-bc1b-209b385a7130" />
 
-<img width="1902" height="972" alt="image" src="https://github.com/user-attachments/assets/393f1d9b-19b7-4d6b-93b6-6274c8b66765" />
+<img width="1918" height="1078" alt="image" src="https://github.com/user-attachments/assets/636c0d6a-2fe3-4668-8169-538c0deb18e1" />
+
+<img width="1918" height="1078" alt="image" src="https://github.com/user-attachments/assets/28f6f951-b13b-4e89-8a13-65b353a99001" />
+
+<img width="1918" height="1078" alt="image" src="https://github.com/user-attachments/assets/de12075a-3194-4466-bda0-4d0509e2d7f2" />
+
+<img width="1917" height="1078" alt="image" src="https://github.com/user-attachments/assets/eecb9f39-a069-4e67-9638-eebf046f7d2c" />
+
